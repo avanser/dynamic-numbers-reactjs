@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a {
+    color: #61dafb;
+}
+
+.App-Element {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+div.App-Element {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #61dafb;
+}
+
+div.App-Configuration {
+    width: 50%;
+    max-width: 50%;
+}
+table.Configuration-View {
+    width: 100%;
+}
+
+table.Configuration-View tbody th {
+    width: 50%;
+    font-size: 0.9rem;
+}
+
+table.Configuration-View tbody td {
+    width: 48%;
+    text-align: left;
+}
+
+table.Configuration-View tbody td button {
+    width: 48%;
+}
+
+
+table.Configuration-View input {
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+    
+}
+
+.App-Numbers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    max-width: 50vw
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0.25rem;
+}
+
+.App-Numbers pre {
+    display: block;
+    font-Size: 0.8rem;
+    width: 100%;
+    text-align: left;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
